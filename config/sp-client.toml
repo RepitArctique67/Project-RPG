@@ -1,0 +1,16 @@
+
+["Map button names"]
+	#Show button names for maps
+	show = false
+	#Use the old camera GUI
+	old_gui = false
+
+["Optifine warning screen"]
+	#Show warning screen if Optifine is loaded
+	show = true
+
+["Menu size (sorry for this being a config, it's going to be updated later -Zeus)"]
+	#Size of the camera menu
+	#Range: 1 ~ 4
+	size = 2
+

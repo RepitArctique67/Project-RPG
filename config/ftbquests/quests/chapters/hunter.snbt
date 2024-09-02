@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hunter"
+	group: "03F46AC891B81032"
+	id: "558E377689507727"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "14AD8811D820910D"
+		rewards: [{
+			id: "477E7FAD6BD97930"
+			type: "xp"
+			xp: 100
+		}]
+		tasks: [{
+			entity: "minecraft:pig"
+			icon: {
+				Count: 1
+				id: "knightquest:paladin_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1050866B0F1BB6B9"
+			title: "First blood"
+			type: "kill"
+			value: 1L
+		}]
+		x: -5.0d
+		y: -1.5d
+	}]
+	title: "Hunter"
+}

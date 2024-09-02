@@ -1,0 +1,81 @@
+
+[general]
+	#Want to take a look at the internals of RP Calculation? Enable this to write all the conversions and setValue-Commands to config/Traidingnetwork/mappingdump.json
+	dumpEverythingToFile = false
+	#When the next RP mapping occurs write the results to config/Traidingnetwork/pregenerated_rp.json and only ever run the mapping again when that file does not exist, this setting is set to false, or an error occurred parsing that file.
+	pregenerate = false
+	#Log known RP Exploits. This can not and will not find all possible exploits. This will only find exploits that result in fixed/custom rp values that the algorithm did not overwrite. Exploits that derive from conversions that are unknown to Traidingnetwork will not be found.
+	logRPExploits = true
+
+[enabledMappers]
+	#Add Conversions for Crafting Recipes gathered from net.minecraft.item.crafting.RecipeManager
+	CraftingMapper = true
+	#Add Conversions for all weathered copper variants
+	WeatheredCopperMapper = true
+	#Uses the `custom_rp.json` File to add RP values.
+	CustomRPMapper = true
+	#Loads json files within datapacks (data/<domain>/tn_custom_conversions/*.json) to add values and conversions
+	CustomConversionMapper = true
+	#Allows setting rp values through KubeJS
+	KubeJSAmazingTrading = true
+	#Adds back and forth conversions of objects and their Tag variant. (RP values assigned to tags will not behave properly if this mapper is disabled)
+	TagMapper = true
+
+[CraftingMapper]
+
+	[CraftingMapper.CraftingRecipeMapper]
+		#default vanilla crafting recipes
+		enabled = true
+
+	[CraftingMapper.MixingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.SplashingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.ItemApplicationMapper]
+		#Sequenced Assembly Recipe Mapper
+		enabled = true
+
+	[CraftingMapper.SandPaperPolishingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.PressingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.MillingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.HauntingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.DeployerApplicationMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.CuttingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.CrushingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.BasinMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.CompactingMapper]
+		#Create ProcessingRecipeMapper
+		enabled = true
+
+	[CraftingMapper.FallbackRecipeType]
+		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
+		enabled = true
+

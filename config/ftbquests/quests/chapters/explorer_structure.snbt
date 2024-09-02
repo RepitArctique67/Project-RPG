@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "explorer_structure"
+	group: "03F46AC891B81032"
+	id: "56B0ABB815E97DB3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Explorer (Structure)"
+}
