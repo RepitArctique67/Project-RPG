@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mage"
+	group: "5F6DCDE239759801"
+	id: "7DDE3C86B80FFFCC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mage"
+}

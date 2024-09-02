@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "warrior"
+	group: "5F6DCDE239759801"
+	id: "2EA24305E48232A9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Warrior"
+}

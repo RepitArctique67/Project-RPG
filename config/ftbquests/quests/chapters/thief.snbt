@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thief"
+	group: "5F6DCDE239759801"
+	id: "594E70145C1F6183"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Thief"
+}

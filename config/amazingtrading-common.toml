@@ -1,0 +1,10 @@
+#How many steps the shredder needs to crush one item (steps per tick is based of the rotation speed)
+#Range: > 1
+shredderProcessTicks = 200
+#Quotient by which the rotation speed is divided to get the steps per tick of processing (higher value increases the time to crush one item)
+#Range: 1.0 ~ 1024.0
+rpmToSpeedQuotient = 16.0
+#By which factor the cost of buying items in the shop increases from their value when being crushed
+#Range: 1.0 ~ 1000.0
+itemBuyCostFactor = 2.0
+
